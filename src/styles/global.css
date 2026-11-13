@@ -95,18 +95,10 @@ p { margin: 0 0 1em; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 8px 0; }
 .header-inner { padding: 6px 0; }
 .brand { text-decoration: none; }
-.logo { display: inline-flex; align-items: center; gap: 10px; color: #fff; }
-.logo-mark { width: 44px; height: 44px; flex: none; }
-.logo-text { display: flex; flex-direction: column; font-family: var(--font-display); font-weight: 800; text-transform: uppercase; line-height: .95; }
-.logo-top { font-size: 1.15rem; letter-spacing: .04em; }
-.logo-bottom { font-size: 1.15rem; letter-spacing: .2em; color: var(--cyan-300); }
-.logo-lg .logo-mark { width: 60px; height: 60px; }
-.logo-lg .logo-top, .logo-lg .logo-bottom { font-size: 1.6rem; }
+.logo { display: block; width: 72px; height: 72px; filter: drop-shadow(0 6px 14px rgba(0,0,0,.45)); }
+.logo-lg { width: 160px; height: 160px; }
 .header-inner { min-height: 64px; }
-@media (max-width: 480px) {
-  .logo-mark { width: 38px; height: 38px; }
-  .logo-top, .logo-bottom { font-size: 1rem; }
-}
+@media (max-width: 480px) { .logo-sm { width: 58px; height: 58px; } }
 .nav-desktop { display: flex; gap: 28px; }
 .nav-desktop a { color: #dbe6fb; text-decoration: none; font-weight: 600; }
 .nav-desktop a:hover { color: #fff; }

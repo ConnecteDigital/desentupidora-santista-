@@ -37,7 +37,7 @@ const faq = [
   },
 ];
 
-const fotoTopo = fotoDoServico('hidrojateamento');
+import fundoTopo from '../assets/topo.jpg';
 const fotoEquipe = fotoDoServico('desentupimento-de-esgoto');
 
 const posts = (await getCollection('blog'))
@@ -52,10 +52,10 @@ const posts = (await getCollection('blog'))
 >
   <section class="hero hero-home">
     {
-      fotoTopo && (
+      fundoTopo && (
         <Image
           class="hero-bg"
-          src={fotoTopo.src}
+          src={fundoTopo}
           alt=""
           widths={[480, 800, 1200, 1600]}
           sizes="100vw"
