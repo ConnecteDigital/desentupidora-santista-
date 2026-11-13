@@ -166,6 +166,42 @@ export const servicos: Servico[] = [
     ],
   },
   {
+    slug: 'desentupimento-de-cano',
+    nome: 'Desentupimento de Cano',
+    keyword: 'Desentupimento de cano e tubulação 24 horas',
+    resumo: 'Canos e tubulações entupidos dentro da parede, no piso ou enterrados, desobstruídos sem quebrar.',
+    metaDescription:
+      'Desentupimento de cano e tubulação 24h em Santos, São Vicente, Guarujá e Praia Grande. Máquinas e jato de água, sem quebra-quebra e com garantia.',
+    icon: 'pipe',
+    intro: [
+      'Quando a água para de descer e o problema não está na pia, no ralo ou no vaso, o entupimento está no meio do caminho: dentro do cano que passa pela parede, pelo piso ou enterrado no quintal.',
+      'Usamos máquinas de cabo flexível e jato de água em alta pressão que entram pela própria tubulação até chegar ao ponto entupido, sem precisar quebrar parede nem piso na grande maioria dos casos.',
+    ],
+    sinais: [
+      'Água parada mesmo depois de limpar o sifão ou a caixa sifonada',
+      'Dois ou mais pontos da casa entupidos ao mesmo tempo',
+      'Barulho de borbulhas no cano quando a água desce',
+      'Cheiro de esgoto vindo de dentro da parede ou do piso',
+      'Entupimento que volta pouco tempo depois de resolvido',
+    ],
+    comoFazemos: [
+      'Identificamos por onde passa a tubulação e onde está a obstrução',
+      'Entramos no cano pelo ponto de acesso mais próximo (ralo, caixa ou visita)',
+      'Desobstruímos com máquina de cabo ou jato de água, conforme o diâmetro e o material do cano',
+      'Testamos o escoamento em todos os pontos ligados à tubulação',
+    ],
+    faq: [
+      {
+        q: 'Precisa quebrar a parede para desentupir o cano?',
+        a: 'Na grande maioria dos casos, não. As máquinas entram pela própria tubulação. Só indicamos abrir quando o cano está quebrado ou amassado, e sempre com o seu aceite antes.',
+      },
+      {
+        q: 'Vocês desentopem cano de PVC antigo?',
+        a: 'Sim. Avaliamos o material e o estado do cano antes de escolher o equipamento, para desentupir sem danificar a tubulação.',
+      },
+    ],
+  },
+  {
     slug: 'limpeza-de-caixa-de-gordura',
     nome: 'Limpeza de Caixa de Gordura',
     keyword: 'Limpeza e desentupimento de caixa de gordura',
