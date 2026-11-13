@@ -1,0 +1,19 @@
+---
+// Logo provisória em texto (troque por uma imagem quando o cliente mandar a logo oficial).
+interface Props {
+  size?: 'sm' | 'lg';
+}
+const { size = 'sm' } = Astro.props;
+---
+
+<span class:list={['logo', `logo-${size}`]}>
+  <svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true">
+    <rect width="64" height="64" rx="16" fill="#1662e8" />
+    <path d="M32 10C32 10 16 30 16 40a16 16 0 0 0 32 0C48 30 32 10 32 10z" fill="#fff" />
+    <path d="M25 41a7 7 0 0 0 7 7" stroke="#1662e8" stroke-width="4" fill="none" stroke-linecap="round" />
+  </svg>
+  <span class="logo-text">
+    <span class="logo-top">Desentupidora</span>
+    <span class="logo-bottom">Santista</span>
+  </span>
+</span>
