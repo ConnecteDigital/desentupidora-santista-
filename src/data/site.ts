@@ -30,7 +30,7 @@ export function whatsappUrl(message: string = DEFAULT_WHATSAPP_MESSAGE) {
 }
 
 // Contêiner do Google Tag Manager (ex.: 'GTM-XXXXXXX'). Vazio = sem rastreamento.
-export const gtmId = '';
+export const gtmId = 'GTM-WMDD2WMM';
 
 // Tag do Google (Google Ads). Vazio = sem a tag.
 export const googleTagId = 'AW-18095883915';
