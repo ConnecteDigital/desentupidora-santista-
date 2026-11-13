@@ -37,6 +37,7 @@ const faq = [
   },
 ];
 
+const fotoTopo = fotoDoServico('hidrojateamento');
 const fotoEquipe = fotoDoServico('desentupimento-de-esgoto');
 
 const posts = (await getCollection('blog'))
@@ -51,10 +52,10 @@ const posts = (await getCollection('blog'))
 >
   <section class="hero hero-home">
     {
-      fotoEquipe && (
+      fotoTopo && (
         <Image
           class="hero-bg"
-          src={fotoEquipe.src}
+          src={fotoTopo.src}
           alt=""
           widths={[480, 800, 1200, 1600]}
           sizes="100vw"
@@ -90,7 +91,7 @@ const posts = (await getCollection('blog'))
       <div class="section-head">
         <span class="eyebrow">Nossos serviços</span>
         <h2>Desentupimento na Baixada Santista</h2>
-        <p>Da pia da cozinha à coluna de esgoto do prédio: desentupimos casas, apartamentos, condomínios e comércios.</p>
+        <p>Da pia da cozinha à rede de esgoto: desentupimos casas, apartamentos, condomínios e comércios.</p>
       </div>
       <div class="services-grid">
         {servicos.map((s) => <ServiceCard servico={s} />)}
@@ -135,7 +136,7 @@ const posts = (await getCollection('blog'))
       <div class="section-head">
         <span class="eyebrow">Por que a {site.name}</span>
         <h2>Desentupidora de confiança, a qualquer hora</h2>
-        <p>Equipe equipada para resolver desde um ralo de box até a coluna de esgoto de um prédio inteiro.</p>
+        <p>Equipe equipada para resolver desde um ralo de box até a rede de esgoto inteira.</p>
       </div>
       <div class="features">
         <div class="feature">
@@ -166,9 +167,9 @@ const posts = (await getCollection('blog'))
       <section class="section">
         <div class="container">
           <div class="section-head">
-            <span class="eyebrow">Trabalhos realizados</span>
-            <h2>Serviços que já fizemos</h2>
-            <p>Fotos reais de atendimentos da {site.name} na Baixada Santista.</p>
+            <span class="eyebrow">Nosso trabalho</span>
+            <h2>Nossos serviços em ação</h2>
+            <p>Desentupimento de pia, vaso, esgoto, caixa de gordura e hidrojateamento na Baixada Santista.</p>
           </div>
           <Gallery limit={8} />
         </div>

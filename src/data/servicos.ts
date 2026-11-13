@@ -197,37 +197,6 @@ export const servicos: Servico[] = [
     ],
   },
   {
-    slug: 'desentupimento-de-coluna-de-predio',
-    nome: 'Desentupimento de Coluna de Prédio',
-    keyword: 'Desentupimento de coluna de esgoto em prédios e condomínios',
-    resumo: 'Colunas de esgoto e de cozinha de prédios e condomínios desobstruídas andar por andar.',
-    metaDescription:
-      'Desentupimento de coluna de esgoto e de cozinha em prédios e condomínios de Santos, Guarujá, São Vicente e Praia Grande. Atendimento 24h.',
-    icon: 'building',
-    intro: [
-      'Em prédios, um entupimento na coluna de esgoto ou de cozinha costuma aparecer primeiro nos andares mais baixos, com água voltando pela pia ou pelo ralo. É um problema que afeta vários apartamentos ao mesmo tempo.',
-      'Atendemos síndicos, administradoras e zeladores: localizamos o ponto da obstrução, desobstruímos a coluna inteira e as ligações dos apartamentos afetados.',
-    ],
-    sinais: [
-      'Água voltando na pia ou no ralo dos andares de baixo',
-      'Vários apartamentos reclamando de escoamento lento',
-      'Mau cheiro na área de serviço ou no shaft',
-      'Caixa de inspeção do térreo transbordando',
-    ],
-    comoFazemos: [
-      'Conversamos com o síndico ou zelador para mapear os apartamentos afetados',
-      'Localizamos o trecho obstruído pelas caixas e visitas da coluna',
-      'Desobstruímos a coluna com máquina adequada ao diâmetro',
-      'Testamos o escoamento nos andares afetados',
-    ],
-    faq: [
-      {
-        q: 'Atendem condomínios e administradoras?',
-        a: 'Sim. Atendemos prédios residenciais e comerciais em toda a Baixada Santista, 24 horas.',
-      },
-    ],
-  },
-  {
     slug: 'hidrojateamento',
     nome: 'Hidrojateamento',
     keyword: 'Hidrojateamento de tubulação e esgoto',

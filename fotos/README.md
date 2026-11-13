@@ -5,5 +5,5 @@ Fotos de equipe, veículo ou que não se encaixam em nenhum serviço vão em `ge
 
 - Formatos aceitos: JPG, PNG ou WEBP, no tamanho original.
 - A primeira foto de cada pasta entra no site automaticamente no próximo deploy (já otimizada).
-- A foto de `desentupimento-de-esgoto/` também vira o fundo do topo da página inicial.
+- A foto de `hidrojateamento/` também vira o fundo do topo da página inicial.
 - Para trocar uma foto que já está no site, apague o arquivo correspondente em `src/assets/fotos/`.

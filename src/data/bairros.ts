@@ -20,7 +20,7 @@ export const bairros: Bairro[] = [
     nome: 'Santos',
     zona: 'Santos e região central',
     sobre:
-      'Santos tem muitos prédios antigos na orla, no Gonzaga, no Boqueirão e na Ponta da Praia, além de casas e sobrados nos morros e na Zona Noroeste. Nos prédios, os chamados mais comuns são colunas de esgoto e de cozinha entupidas; nas casas, caixa de gordura cheia e esgoto com areia.',
+      'Santos tem muitos prédios antigos na orla, no Gonzaga, no Boqueirão e na Ponta da Praia, além de casas e sobrados nos morros e na Zona Noroeste. Nos apartamentos, os chamados mais comuns são pia e vaso entupidos; nas casas, caixa de gordura cheia e esgoto com areia.',
     vizinhos: ['São Vicente', 'Guarujá', 'Cubatão'],
   },
   {
