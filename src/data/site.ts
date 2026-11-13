@@ -19,7 +19,7 @@ export const site = {
   phoneCall: `0${ddd} ${numero}`,
   tel: `tel:+${PHONE_DIGITS}`,
   description:
-    'Desentupidora 24 horas na Baixada Santista: Santos, São Vicente, Guarujá, Praia Grande, Cubatão e região. Desentupimento de esgoto, cano, pia, vaso sanitário, ralo e caixa de gordura, sem quebra-quebra e com garantia.',
+    'Desentupidora 24 horas na Baixada Santista: Santos, São Vicente, Guarujá, Praia Grande, Cubatão e região. Desentupimento de esgoto, cano, pia, vaso sanitário, ralo, caixa de gordura e limpa fossa, sem quebra-quebra e com garantia.',
 };
 
 export const DEFAULT_WHATSAPP_MESSAGE =

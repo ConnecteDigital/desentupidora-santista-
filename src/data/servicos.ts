@@ -233,6 +233,42 @@ export const servicos: Servico[] = [
     ],
   },
   {
+    slug: 'limpa-fossa',
+    nome: 'Limpa Fossa',
+    keyword: 'Limpa fossa e esgotamento de fossa séptica',
+    resumo: 'Esgotamento de fossa séptica, fossa negra e sumidouro com caminhão de sucção.',
+    metaDescription:
+      'Limpa fossa na Baixada Santista: esgotamento de fossa séptica e sumidouro com caminhão de sucção em Santos, Guarujá, Praia Grande e região. Atendimento 24h.',
+    icon: 'truck',
+    intro: [
+      'Em muitos bairros da Baixada Santista, principalmente no Litoral Sul, em Bertioga e em casas de condomínio, o esgoto vai para uma fossa em vez da rede pública. Com o tempo ela enche, o esgoto volta pelos ralos e o mau cheiro toma conta do quintal.',
+      'Fazemos o esgotamento da fossa com caminhão de sucção: retiramos todo o material, limpamos a fossa e conferimos a entrada e a saída para o esgoto voltar a escoar normalmente.',
+    ],
+    sinais: [
+      'Esgoto voltando pelos ralos ou pelo vaso sanitário',
+      'Mau cheiro forte no quintal ou perto da tampa da fossa',
+      'Terreno encharcado ou afundando perto da fossa',
+      'Pia, ralos e vaso escoando devagar ao mesmo tempo',
+      'Faz mais de um ano que a fossa não é limpa',
+    ],
+    comoFazemos: [
+      'Localizamos e abrimos a tampa da fossa',
+      'Fazemos a sucção de todo o conteúdo com o caminhão',
+      'Limpamos a fossa com jato de água e conferimos a entrada e a saída',
+      'Fechamos a fossa e testamos o escoamento da casa',
+    ],
+    faq: [
+      {
+        q: 'De quanto em quanto tempo limpar a fossa?',
+        a: 'Depende do tamanho da fossa e de quantas pessoas usam a casa. Em geral, a cada 1 ou 2 anos. Em casas de temporada que lotam no verão, vale limpar antes da alta temporada.',
+      },
+      {
+        q: 'Vocês atendem fossa em condomínio e comércio?',
+        a: 'Sim. Atendemos casas, condomínios, pousadas, restaurantes e empresas em toda a Baixada Santista.',
+      },
+    ],
+  },
+  {
     slug: 'hidrojateamento',
     nome: 'Hidrojateamento',
     keyword: 'Hidrojateamento de tubulação e esgoto',

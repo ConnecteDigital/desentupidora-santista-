@@ -11,6 +11,7 @@ const alts: Record<string, string> = {
   'desentupimento-de-ralo': 'Técnico desentupindo ralo com cabo flexível da máquina',
   'desentupimento-de-cano': 'Desentupimento de cano enterrado com mangueira e jato de água',
   'limpeza-de-caixa-de-gordura': 'Técnico fazendo a limpeza de caixa de gordura com mangueira de sucção',
+  'limpa-fossa': 'Limpa fossa com caminhão de sucção e jato de água na tampa do esgoto',
   'hidrojateamento': 'Hidrojateamento de canaleta e tubulação com jato de água em alta pressão',
 };
 
