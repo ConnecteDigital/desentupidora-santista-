@@ -1,0 +1,21 @@
+---
+// Tag do Google (gtag.js) da conta do Google Ads. ID em src/data/site.ts.
+import { googleTagId } from '../data/site';
+---
+
+{
+  googleTagId && (
+    <>
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${googleTagId}`}></script>
+      <script is:inline define:vars={{ googleTagId }}>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', googleTagId);
+      </script>
+    </>
+  )
+}
